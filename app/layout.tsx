@@ -5,25 +5,25 @@ import Footer from '@/components/Footer'
 
 
 export const metadata: Metadata = {
-  title: 'Travel',
-  description: 'Travel UI/UX App For Camping',
+	title: 'Travel',
+	description: 'Travel UI/UX App For Camping',
 }
 
 export default function RootLayout({
-  children,
+	children,
 }: {
-  children: React.ReactNode
+	children: React.ReactNode
 }) {
-  return (
-    <html lang="en">
-      <body >
-        <NavBar />
-        <main
-          className='relative overflow-hidden'
-        > {children}</main>
-        <Footer />
-      </body>
+	return (
+		<html lang="en">
+			<body >
+				<NavBar />
+				<main
+					className='relative overflow-hidden'
+				> {children}</main>
+				<Footer />
+			</body>
 
-    </html>
-  )
+		</html>
+	)
 }
