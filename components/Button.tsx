@@ -4,8 +4,8 @@ import React from 'react'
 interface ButtonProps {
     title: string
     type?: "button" | "submit" | "reset" | undefined
-    icon: string
-    variant?: 'btn_dark_green'
+    icon?: string
+    variant?: string
 }
 
 const Button = ({ title, type, icon, variant = "btn_dark_green" }: ButtonProps) => {
