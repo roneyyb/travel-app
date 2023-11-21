@@ -19,9 +19,17 @@ export default function RootLayout({
 		<html lang="en">
 			<body >
 				<NavBar />
+
+				{/* Overflow property
+				visible - This is the default value. It will extend beyond the container's boundaries if height and width is given.
+				hidden - If content extending beyond the container's boundaries will not be visible.
+				scroll -  Scrollbars (both horizontal and vertical) will be added to the container, allowing users to scroll and view the content that overflows the container.
+				auto: Scrollbars will only be displayed if the content exceeds the container's dimensions. If there's no overflow, no scrollbars will appear. */}
 				<main
 					className='relative overflow-hidden'
-				> {<Home />}</main>
+				>
+					{<Home />}
+				</main>
 				<Footer />
 			</body>
 
