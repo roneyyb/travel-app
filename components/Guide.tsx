@@ -30,6 +30,26 @@ const Guide = () => {
                     height={580}
                     className='w-full object-cover object-center 2xl:rounded-5xl'
                 />
+                <div className='absolute top-[20%] left-[10%] min-h-[200px] min-w-[300px] p-4 flex flex-row bg-white rounded-2xl '>
+                    <div className='flex '>
+
+                    </div>
+                    <div className='flex flex-1 flex-col justify-between h-["100%]'>
+                        <div>
+                            <div className='flex flex-row justify-between' >
+                                <p>Destinaton</p>
+                                <p>
+                                    48min
+                                </p>
+                            </div>
+                            <p>Aguas Calientes</p>
+                        </div>
+                        <div>
+                            <p>Start track</p>
+                            <p>Wonorejo Pasuruan</p>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </section>
