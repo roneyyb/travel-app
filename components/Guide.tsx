@@ -21,7 +21,7 @@ const Guide = () => {
                 </div>
 
             </div>
-            <div className='flexCenter max-container relative w-full border-2 border-blue-500'>
+            <div className='flexCenter max-container relative w-full '>
                 <Image
 
                     src={"/boat.png"}
@@ -30,7 +30,7 @@ const Guide = () => {
                     height={580}
                     className='w-full object-cover object-center 2xl:rounded-5xl'
                 />
-                <div className='absolute top-[20%] left-[10%] min-h-[200px] min-w-[300px] p-4 flex flex-row bg-white rounded-2xl '>
+                <div className='absolute md:top-[20%] md:left-[10%] top-auto bottom-auto left-auto right-auto min-h-[200px] min-w-[250px] p-4 flex flex-row bg-white rounded-2xl shadow-xl '>
                     <div className='flex '>
 
                     </div>

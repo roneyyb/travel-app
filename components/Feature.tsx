@@ -4,7 +4,7 @@ import React from 'react'
 
 const Feature = () => {
     return (
-        <div className='flex flex-row max-container padding-container border-2 border-gray-10 py-10 '>
+        <section className='flex flex-row max-container mt-15 padding-container py-10 '>
             <div className='feature-phone' />
             <div className='md:flex hidden '>
                 <div className='feature-phone' />
@@ -38,7 +38,7 @@ const Feature = () => {
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 
