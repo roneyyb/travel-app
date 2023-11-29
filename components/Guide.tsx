@@ -30,23 +30,24 @@ const Guide = () => {
                     height={580}
                     className='w-full object-cover object-center 2xl:rounded-5xl'
                 />
-                <div className='absolute md:top-[20%] md:left-[10%] top-auto bottom-auto left-auto right-auto min-h-[200px] min-w-[250px] p-4 flex flex-row bg-white rounded-2xl shadow-xl '>
+                <div className='absolute md:top-[20%] md:left-[10%] top-auto bottom-auto left-auto right-auto min-h-[200px] min-w-[250px] p-4 flex flex-row bg-white rounded-2xl shadow-md '>
                     <div className='flex '>
-
+                        <Image src={"/meter.svg"} alt={"meter"} width={16} height={158} className='h-full w-auto' />
                     </div>
-                    <div className='flex flex-1 flex-col justify-between h-["100%]'>
+                    <div className='flex flex-1 flex-col justify-between h-["100%] ml-2'>
                         <div>
                             <div className='flex flex-row justify-between' >
-                                <p>Destinaton</p>
-                                <p>
+                                <p className='regular-16 text-gray-20'>Destinaton</p>
+                                <p className='bold-16 text-green-50'>
                                     48min
                                 </p>
                             </div>
-                            <p>Aguas Calientes</p>
+                            <p className='bold-20 mt-2'>Aguas Calientes</p>
                         </div>
                         <div>
-                            <p>Start track</p>
-                            <p>Wonorejo Pasuruan</p>
+
+                            <p className='regular-16 text-gray-20'>Start track</p>
+                            <p className='bold-20 mt-2'>Wonorejo Pasuruan</p>
                         </div>
                     </div>
                 </div>
